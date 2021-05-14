@@ -1,16 +1,39 @@
 .App {
-  text-align: center;
+  text-align:left;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 80px;
+  width: 80px;
   pointer-events: none;
+  margin-left: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App-logo-center{
+  height: 200px;
+  width: 200px;
+  pointer-events: none;
+  margin-left: 50px;
+}
+
+.App-logo-center-container{
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.App-logo-center-container img{
+  align-items: center;
+}
+
+.App-logo-center-container h2{
+  text-align: center;
+}
+
+.App-logo-center-container p{
+  color:silver;
+  text-align: center;
 }
 
 .App-header {
@@ -35,4 +58,244 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.topnav {
+ 
+  height:40px;
+
+}
+
+.ajar-ajar-main-container{
+  height: auto;
+}
+
+.ajar-ajar-detail-container{
+  float: left;
+  margin: 10px;
+  width: 70%;
+  background-color: yellowgreen;
+}
+
+.ajar-ajar-picture-container{
+  float: right;
+  margin: 10px;
+  width: 30%;
+  background-color: silver;
+}
+
+.topnavlogo {
+  float: left;
+  margin: 10px;
+  
+}
+
+.topnavbutton {
+  float: right;
+  margin: 10px;
+  margin-top: 30px;
+  
+}
+
+.topnav a.active {
+  
+  margin: 30px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  color:orange;
+
+}
+
+.banner {
+  height:422px;
+  background-size: contain;
+}
+
+.banner h2{
+  text-align:center;
+  color: white;
+  font-size: 70px;
+}
+
+.banner p{
+  text-align:center;
+  color: white;
+  font-size: 40px;
+}
+
+.outerDiv
+{
+  
+  height: 400px;
+  width: 100%;
+  margin: 0px auto;
+  padding: 5px;
+}
+.leftDiv
+{
+ 
+  color: #000;
+  height: 400px;
+  width: 70%;
+  float: left;
+}
+
+.leftDiv2
+{
+  
+  color: #000;
+  height: 400px;
+  width:40%;
+  float: left;
+  margin-left: 40px;
+  
+}
+
+.leftDiv h2{
+  text-align:center;
+}
+
+.leftDiv p{
+  margin-left: 30px;
+  height:50px;
+}
+
+.rightDiv2
+{
+
+  color: #000;
+  height: 400px;
+  width: 50%;
+  float: right;
+  
+}
+
+/* .rightDiv2 div{
+
+  height: 50px;
+  width: 90%;
+}
+
+.rightDiv2 h2{
+  background-color: orange;
+  color: white;
+}
+
+.rightDiv2 p{
+  
+  vertical-align: center;
+} */
+
+
+.rightDiv
+{
+
+  color: #000;
+  height: 400px;
+  width: 30%;
+  float: right;
+}
+
+.rightofDiv{
+  text-align: right;
+
+  margin-right: 40px;
+}
+
+.collapse{
+  display: block;
+  margin:auto;
+}
+.outcollapse{
+  margin:auto;
+}
+
+.contactContainer{
+
+
+  width:'100%';
+}
+
+.contactContainer h1{
+  padding:40px;
+
+}
+
+.contactContainer div{
+  padding-left:40px;
+  padding-right:40px;
+}
+
+.spanText {
+  color:#d9d6ce
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3% ;
+  grid-gap: 10px;
+  padding: 10px;
+
+}
+
+.grid-container div:hover{
+  -moz-box-shadow:    inset 0 0 10px gray;
+   -webkit-box-shadow: inset 0 0 10px gray;
+   box-shadow:         inset 0 0 10px gray;
+   transform: scale(1.1);
+   color: orange
+} 
+
+.grid-container h2:hover{
+  color: orange
+}
+
+.grid-container p{
+  color: #72706b
+}
+
+.grid-child-container{
+  background-color: #faebcf;
+  padding: 0;
+
+}
+
+
+
+
+.grid-child-container div{
+  background-color: orange;
+  color:white;
+  width:auto;
+  font-size: large;
+}
+
+.collapse{
+
+  width: 90%;
+}
+
+.collapse h2{
+  color: white;
+  background-color: orange;
+  padding-left: 20px;
+}
+
+.collapse div{
+  background-color: white; 
+  padding-left: 20px;
+}
+
+.footer{
+  height: 100px;
+  width: 100%;
+  background-color: #948f82;
+  margin:0px;
+}
+
+.footer div{
+  margin-left: 30px;
+  color:white;
 }
