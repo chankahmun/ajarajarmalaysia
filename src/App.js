@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <header>
-      
+      <meta name="viewport" content="width-device-width, initial-scale=1"></meta>
       <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
       {/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link> */}
       </header>
@@ -30,10 +30,10 @@ function App() {
             
           </div>
    
-          <div className="banner" style={{ backgroundImage: `url(${mainbanner})` }}>
+          {/* <div className="banner" style={{ backgroundImage: `url(${mainbanner})` }}>
             <h2>A Leading NGO in Education & Volunteerism</h2>
             <p>You & Me Can Create a Brighter Future</p>
-          </div>
+          </div> */}
 
           <div id="about" className="App-logo-center-container">
            
@@ -42,12 +42,12 @@ function App() {
               <p>A Free Tuition Project for Underprivileged Children</p>
           </div>
 
-          
+          <div class="blankDiv"/>
           <div class="outerDiv">
-            <div class="leftDiv">
+            <article class="articleInfo">
               <h2>WHAT is Ajar-Ajar Malaysia?</h2>
               <p>
-                Ajar-Ajar Malaysia is a humanitarian based initiative committed to educate, inspire and empower scholars from poor and underserved communities. We provide free education and social empowerment programmes to scholars of underserved multiracial communities.
+              Ajar-Ajar Malaysia is a humanitarian based initiative committed to educate, inspire and empower scholars from poor and underserved communities. We provide free education and social empowerment programmes to scholars of underserved multiracial communities.
 
                 
               </p>
@@ -66,18 +66,14 @@ function App() {
               Proper education will bring fortune for the kids future, therefore a better and more developed future of Malaysia. We hope more undergraduates and young people can join us together in this project. Just spend only 3 hours, we can create miracles. Let us share our love out together!!!
               </p>
 
-            </div>
-            <div class="rightDiv">
-              <div class="rightofDiv">
-                  <img src={sampleone} alt="logo" />
-                </div>
-                <div class="rightofDiv">
-                  <img src={sampletwo}  alt="logo" />
-              </div>
+            </article>
+            <div class="articleImg">
+              <img  src={sampleone} alt="logo" />
+              <img  src={sampletwo}  alt="logo" />
             </div>		
             
           </div>
-
+          <div class="blankDiv2"/>
           <div id= "news" class="outerDiv">
             <div class="leftDiv2">
               <h1>OUR INVOLVEMENT</h1>
@@ -107,6 +103,7 @@ function App() {
             </div>		
             
           </div>
+          <div class="blankDiv3"/>
           <div id= "contact" class="contactContainer">
             <h1>Contact</h1>
             <div class="grid-container">
@@ -164,10 +161,6 @@ function App() {
               </div>
 
             </div>
-            
-            
-            
-            
           </div>
 
 
@@ -176,9 +169,9 @@ function App() {
        
 
       </body>
-      <footer class="footer">
+      {/* <footer class="footer">
         <div>Copyright by Ajar-Ajar Malaysia @ 2021</div>
-      </footer>
+      </footer> */}
 
     </div>
   );

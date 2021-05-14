@@ -21,6 +21,10 @@
   justify-content: center;
   margin-top: 100px;
   text-align: center;
+  width: 100%;
+  background-color: #faf5e8;
+  padding:5px 5px 5px;
+  
 }
 
 .App-logo-center-container img{
@@ -62,7 +66,8 @@
 
 .topnav {
  
-  height:40px;
+  height:20px;
+  display: none;
 
 }
 
@@ -128,11 +133,28 @@
 .outerDiv
 {
   
-  height: 400px;
+
   width: 100%;
-  margin: 0px auto;
-  padding: 5px;
+
 }
+
+.articleInfo{
+  width: 100%;
+}
+
+.articleInfo h2{
+  padding: 10px 10px 10px
+}
+
+.articleInfo p{
+  padding: 10px 10px 10px
+}
+
+.articleImg {
+  width: 100%;
+  padding: 0px 
+}
+
 .leftDiv
 {
  
@@ -146,15 +168,19 @@
 {
   
   color: #000;
-  height: 400px;
-  width:40%;
-  float: left;
-  margin-left: 40px;
-  
+}
+
+.leftDiv2 h1{
+  padding: 10px 10px 10px
+}
+
+.leftDiv2 p{
+  padding: 10px 10px 10px
 }
 
 .leftDiv h2{
   text-align:center;
+  
 }
 
 .leftDiv p{
@@ -166,27 +192,12 @@
 {
 
   color: #000;
-  height: 400px;
-  width: 50%;
-  float: right;
-  
+
 }
 
-/* .rightDiv2 div{
-
-  height: 50px;
-  width: 90%;
+.rightDiv2 h1{
+  padding: 10px 10px 10px;
 }
-
-.rightDiv2 h2{
-  background-color: orange;
-  color: white;
-}
-
-.rightDiv2 p{
-  
-  vertical-align: center;
-} */
 
 
 .rightDiv
@@ -206,7 +217,7 @@
 
 .collapse{
   display: block;
-  margin:auto;
+  padding:0px 10px 0px;
 }
 .outcollapse{
   margin:auto;
@@ -218,10 +229,7 @@
   width:'100%';
 }
 
-.contactContainer h1{
-  padding:40px;
 
-}
 
 .contactContainer div{
   padding-left:40px;
@@ -234,9 +242,8 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: 33.3% 33.3% 33.3% ;
   grid-gap: 10px;
-  padding: 10px;
+  padding: 10px 10px 10px;
 
 }
 
@@ -245,20 +252,23 @@
    -webkit-box-shadow: inset 0 0 10px gray;
    box-shadow:         inset 0 0 10px gray;
    transform: scale(1.1);
-   color: orange
+   color: orange;
+   padding: 40px 40px 40px
 } 
 
 .grid-container h2:hover{
-  color: orange
+  color: orange;
+  padding: 20px 20px 20px
 }
 
 .grid-container p{
-  color: #72706b
+  color: #72706b;
+
 }
 
 .grid-child-container{
   background-color: #faebcf;
-  padding: 0;
+
 
 }
 
@@ -298,4 +308,95 @@
 .footer div{
   margin-left: 30px;
   color:white;
+}
+
+.blankDiv {
+  height:50px
+}
+
+.blankDiv2 {
+  height:50px
+}
+
+.contactContainer{
+  width: 100%;
+}
+
+.contactContainer h1{
+  padding:10px 10px 10px
+}
+
+.blankDiv3{
+  height:50px
+}
+
+@viewport{
+  zoom:1.0;
+  width:extend-to-zoom;
+}
+
+@-ms-viewport{
+  zoom:1.0;
+  width:extend-to-zoom;
+}
+
+/* @media only screen and (min-width:768px){
+
+} */
+
+
+@media only screen and (min-width:1000px){
+
+  .topnav {
+ 
+    height:5px;
+    display: block;
+    
+  
+  }
+
+  .articleImg
+  {
+    width: 30%;
+    float: right;
+    padding: 60px 0px 0px
+
+  }
+
+  .articleInfo
+  {
+    width: 70%;
+    float: left;
+    
+  }
+
+  .leftDiv2{
+    width: 50%;
+    float: left;
+  }
+
+  .rightDiv2{
+    width: 50%;
+    float: right;
+  }
+
+  
+
+  .grid-container {
+    grid-template-columns: 33.3% 33.3% 33.3% ;
+    padding: 20px 20px 20px;
+  }
+
+  .blankDiv2 {
+    height:400px
+  }
+
+  .blankDiv3{
+    height:550px
+  }
+
+  .contactContainer h1{
+    padding:20px 20px 0px
+  }
+  
 }
