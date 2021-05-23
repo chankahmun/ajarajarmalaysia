@@ -19,13 +19,13 @@ function App() {
             <div className="topnavlogo">
               <img src={logo} className="App-logo" alt="logo" />
             </div>
-            <div className="topnavbutton">
+            {/* <div className="topnavbutton">
               <a class="active" href="#home">Home</a>
               <a class="active" href="#about">About</a>
               <a class="active" href="#news">Detail</a>
               <a class="active" href="#contact">Contact</a>
               
-            </div>
+            </div> */}
 
             
           </div>
@@ -35,14 +35,19 @@ function App() {
             <p>You & Me Can Create a Brighter Future</p>
           </div> */}
 
-          <div id="about" className="App-logo-center-container">
+        <div id="about" className="App-logo-center-container">
+           
+           <p>The Website still under maintenance. Sorry for any inconvenience</p>
+       </div>
+
+          {/* <div id="about" className="App-logo-center-container">
            
               <img src={logo} className="App-logo-center" alt="logo" />
               <h2>Educate . Inspire . Empower</h2>
               <p>A Free Tuition Project for Underprivileged Children</p>
-          </div>
+          </div> */}
 
-          <div class="blankDiv"/>
+          {/* <div class="blankDiv"/>
           <div class="outerDiv">
             <article class="articleInfo">
               <h2>WHAT is Ajar-Ajar Malaysia?</h2>
@@ -161,7 +166,7 @@ function App() {
               </div>
 
             </div>
-          </div>
+          </div> */}
 
 
 
